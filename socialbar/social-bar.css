@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+}
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon{
+    color: #fff;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+.icon-facebook{
+    background-color: rgba(73, 58, 143, 0.993);
+    border-radius: 1rem 0 0 0;
+}
+.icon-twitter{
+    background-color: rgb(23, 163, 182);
+}
+.icon-instagram{
+    background-color: rgb(204, 102, 61);
+}
+.icon-github{
+    background-color: rgb(223, 109, 3);
+    border-radius: 0 0 0 1rem;
+}
